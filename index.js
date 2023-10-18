@@ -1,23 +1,3 @@
-// Question 1
-// 10
-// -1
-// 1
-// 2
-// 6
-// 9px
-// $45
-// 2
-// 2
-//  -9 5
-// -14
-// 1
-// NaN
-// true
-// false
-// -2
-
-// Question 2
-
 let three = "3"
 let four = "4"
 let thirty = "30"
@@ -29,8 +9,11 @@ let multiplication = three * four
 let division = three / four
 // 0.75
 let subtraction = three - four
+// -1
 let lessThan1 = three < four
+// true
 let lessThan2 = thirty < four
+//Because 
 
 console.log(subtraction);
 
