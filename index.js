@@ -13,7 +13,6 @@ let subtraction = three - four
 let lessThan1 = three < four
 // true
 let lessThan2 = thirty < four
-//Because 
+//Because both values are strings, the console returns true since strings are compared alphabetically
 
-console.log(subtraction);
 
