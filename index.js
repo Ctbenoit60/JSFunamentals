@@ -1,36 +1,5 @@
-// Question 1
-// 10
-// -1
-// 1
-// 2
-// 6
-// 9px
-// $45
-// 2
-// 2
-//  -9 5
-// -14
-// 1
-// NaN
-// true
-// false
-// -2
+// Because of implicit boolean conversion the following will return:
 
-// Question 2
-
-let three = "3"
-let four = "4"
-let thirty = "30"
-//what is the value of the following expressions?
-let addition = three + four
-// 34 
-let multiplication = three * four
-// 12
-let division = three / four
-// 0.75
-let subtraction = three - four
-let lessThan1 = three < four
-let lessThan2 = thirty < four
-
-console.log(subtraction);
-
+if ("0") console.log('#2 zero is true') // This is not an empty string so it's true
+if (-1) console.log('negative is true') // the number is not 0 so it's true
+if (1) console.log('positive is true') // the number is not 0 so it's true
