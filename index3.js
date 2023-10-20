@@ -1,3 +1,5 @@
+//Question 3
+
 // Because of implicit boolean conversion the following will return:
 
 if ("0") console.log('#2 zero is true') // This is not an empty string so it's true
