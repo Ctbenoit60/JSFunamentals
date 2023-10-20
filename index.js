@@ -17,20 +17,5 @@ undefined == null // true
 undefined === null // false
 " \t \n" - 2 // -2
 
-10
--1
-1
-2
-6
-9px
-$45
-2
-2
- -9 5
--14
-1
-NaN
-true
-false
--2
+
 
