@@ -9,8 +9,8 @@
 // result += 'greater than 10';
 // }
 
-let a = 10,
-  b = 3;
+let a = 5,
+  b = 5;
 let result = `${a} + ${b} is ${
   a + b < 10 ? "less than 10" : "greater than 10"
 }`;
