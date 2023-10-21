@@ -20,15 +20,21 @@ const westley = {
     let greeting = `Hello ${person.name}, my name is ${this.firstName} ${this.lastName}. `;
     console.log(greeting + this.getCatchPhrase(person));
     },
+
     // getCatchPhrase(person) {
-    // person.numFingers = 6? 'You killed my father prepare to die' : 'Nice to meet you';
-    // }
-    getCatchPhrase(person) {
-        if (person.numFingers >= 6){
-            return 'You killed my father prepare to die';
-        } 
-        return 'Nice to meet you.';
-        }
+    //     if (person.numFingers >= 6){
+    //         return 'You killed my father prepare to die';
+    //     } 
+    //     return 'Nice to meet you.';
+    //     }
+
+    getCatchPhrase: (person) => {
+        return person.numFingers >= 6
+          ? 'You killed my father. Prepare to die.'
+          : 'Nice to meet you.';
+      }
+      
     }
+
     inigo.greeting(westley)
     inigo.greeting(rugen)
