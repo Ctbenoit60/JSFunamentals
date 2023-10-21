@@ -9,33 +9,35 @@
 // full time console messages
 // 1) add new key value for fouls 2) add method ot increment it 3) add the fouls to the half time and fill time message
 // d) Test your object by chaining all the method calls together in different combinations.
+
+
 const basketballGame = {
   score: 0,
-  fouls:0,
+  fouls:0,// part c: added this new key:value pair 
   freeThrow() {
     this.score++;
-    return this;
+    return this; // part a: added 'return this' to enable chain
   },
   numFouls() {
     this.fouls++;
-    return this;
+    return this;// part a: added 'return this' to enable chain
   },
   basket() {
     this.score += 2;
     // console.log(this.score);
-    return this;
+    return this;// part a: added 'return this' to enable chain
   },
   threePointer() {
     this.score += 3;
-    return this;
+    return this;// part a: added 'return this' to enable chain
   },
   halfTime() {
     console.log("Halftime score is " + this.score + " , number of fouls " + this.fouls);
-    return this;
+    return this;// part a: added 'return this' to enable chain
   },
   finalScore() {
     console.log("Final score is " + this.score + " , number of fouls " + this.fouls);
-  },
+  }, // part b: added a finalScore method to show any changes that may occur after halftime 
 };
 //modify each of the above object methods to enable function chaining as below:
 basketballGame
