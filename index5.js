@@ -10,6 +10,8 @@ console.log(getGreeting('Christina'));
 
 //b
 
-const getotherGreeting = (name) =>  {return 'Hello ' + name + '!';}
+const getotherGreeting = (name) =>  {
+    return 'Hello ' + name + '!';
+}
 
-console.log(geothertGreeting('Christina'));
+console.log(getotherGreeting('Christina'));
