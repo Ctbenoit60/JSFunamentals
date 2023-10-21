@@ -6,9 +6,10 @@ const getGreeting = function(name) {
 return 'Hello ' + name + '!';
 }
 
-getGreeting('Christina');
 console.log(getGreeting('Christina'));
 
 //b
 
+const getotherGreeting = (name) =>  {return 'Hello ' + name + '!';}
 
+console.log(geothertGreeting('Christina'));

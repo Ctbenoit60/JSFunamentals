@@ -18,4 +18,3 @@ let lessThan1 = three < four
 let lessThan2 = thirty < four
 //Because both values are strings, the console returns true since strings are compared alphabetically
 
-
