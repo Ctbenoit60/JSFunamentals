@@ -34,12 +34,4 @@ function whatCity(city) {
 whatCity(lafayette);
 whatCity(sydney);
 
-// const phone = {
-// model: 'iPhone 11',
-// color: 'black',
-// storage: 64
-// }
-// for (let key in phone) { // iterates over each property in the phone object
-// console.log('key: ' + key); // prints each object property name (key) in turn
-// console.log('value: ' + phone[key]); // prints each object value in turn
-// }
+
