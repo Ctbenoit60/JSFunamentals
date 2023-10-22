@@ -12,7 +12,7 @@ const sydney = {
   timezone: "Australia/Sydney",
 };
 
-const lafayette = {
+const lafayette = { // part b: Added a new object to test the function added in part a
   name: "Lafayette",
   originalName: "Vermilionville",
   population: 121_771,
@@ -21,11 +21,8 @@ const lafayette = {
   timezone: "Central",
 };
 
-// for (let key in sydney) {
-//     console.log( key + " = " + sydney[key]);
-// }
 
-function whatCity(city) {
+function whatCity(city) { // part a: adding a function that runs through the properties of each object
   for (let key in city) {
     console.log(key + " = " + city[key]);
   }
