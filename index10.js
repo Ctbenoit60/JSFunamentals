@@ -39,7 +39,7 @@ function Person(name, age) {
       }
     }
   
-  // create a third person & print
+  // part d: create a third person
   let person3 = new PersonClass("David", 33);
   let person4 = new PersonClass("Leah", 17);
   
